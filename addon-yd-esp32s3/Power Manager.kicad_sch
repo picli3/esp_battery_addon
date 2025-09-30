@@ -571,6 +571,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -1452,6 +1461,189 @@
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_1_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2616,6 +2808,233 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "kmr:R_100_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD 100 Ohms 100 mW 0603 5%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "InvenTree" "156"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part URL" "http://inv.kuska-iot.com/part/156/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "IPN" "RES-000156-00"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "-"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package Type" "-"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rated Power" "-"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Range" "-"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_100_0603_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_100_0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "kmr:R_100k_0603"
 			(pin_numbers
 				(hide yes)
@@ -3331,7 +3750,7 @@
 	)
 	(text "Vo=0.6x[1+(R1/R2)]"
 		(exclude_from_sim no)
-		(at 264.16 57.15 0)
+		(at 261.62 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3342,7 +3761,7 @@
 	)
 	(text "Vo=0.6x[1+(R1/R2)]"
 		(exclude_from_sim no)
-		(at 261.62 104.14 0)
+		(at 260.35 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4768,16 +5187,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C22765"
-			(at 104.14 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "0603WAF1201T5E"
+		(property "Mfr. Part" ""
 			(at 104.14 92.71 0)
 			(effects
 				(font
@@ -4796,6 +5206,24 @@
 			)
 		)
 		(property "Price" "0.0011"
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22765"
+			(at 104.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "0603WAF1201T5E"
 			(at 104.14 92.71 0)
 			(effects
 				(font
@@ -4971,7 +5399,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C260875"
+		(property "Mfr. Part" ""
 			(at 154.94 46.99 0)
 			(effects
 				(font
@@ -4980,16 +5408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part" "DMP2160U-7"
-			(at 154.94 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part #" ""
+		(property "Part #" "DMP2160U-7"
 			(at 154.94 46.99 0)
 			(effects
 				(font
@@ -5038,7 +5457,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C260875"
 			(at 154.94 46.99 0)
 			(effects
 				(font
@@ -5126,16 +5545,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25808"
-			(at 241.3 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "0603WAF1203T5E"
+		(property "Mfr. Part" ""
 			(at 241.3 71.12 0)
 			(effects
 				(font
@@ -5154,6 +5564,24 @@
 			)
 		)
 		(property "Price" "0.0010"
+			(at 241.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25808"
+			(at 241.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "0603WAF1203T5E"
 			(at 241.3 71.12 0)
 			(effects
 				(font
@@ -5310,15 +5738,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5674"
-			(at 257.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 257.81 109.22 0)
 			(effects
@@ -5328,7 +5747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part" "CL21A226MQQNNNE"
+		(property "Mfr. Part" ""
 			(at 257.81 109.22 0)
 			(effects
 				(font
@@ -5338,6 +5757,24 @@
 			)
 		)
 		(property "Price" "0.01"
+			(at 257.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5674"
+			(at 257.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CL21A226MQQNNNE"
 			(at 257.81 109.22 0)
 			(effects
 				(font
@@ -5583,7 +6020,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kmr:R_100k_0603")
+		(lib_id "kmr:R_100_0603")
 		(at 110.49 119.38 270)
 		(mirror x)
 		(unit 1)
@@ -5627,7 +6064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW Thick Film Resistors 75V ±100ppm/℃ ±1% 100kΩ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "100mW Thick Film Resistor 75V ±100ppm/℃ ±1% 100Ω 0603 Chip Resistor - Surface Mount ROHS"
 			(at 110.49 119.38 0)
 			(effects
 				(font
@@ -5694,7 +6131,7 @@
 				)
 			)
 		)
-		(property "Part #" ""
+		(property "Part #" "RC0603FR-07100RL"
 			(at 110.49 119.38 0)
 			(effects
 				(font
@@ -5703,7 +6140,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C105588"
 			(at 110.49 119.38 0)
 			(effects
 				(font
@@ -5712,7 +6149,7 @@
 				(hide yes)
 			)
 		)
-		(property "InvenTree" "13"
+		(property "InvenTree" "156"
 			(at 110.49 119.38 0)
 			(effects
 				(font
@@ -5721,7 +6158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part URL" "http://inv.kuska-iot.com/part/13/"
+		(property "Part URL" "http://inv.kuska-iot.com/part/156/"
 			(at 110.49 119.38 0)
 			(effects
 				(font
@@ -5730,7 +6167,7 @@
 				(hide yes)
 			)
 		)
-		(property "IPN" "IPN-0013"
+		(property "IPN" "RES-000156-00"
 			(at 110.49 119.38 0)
 			(effects
 				(font
@@ -5739,7 +6176,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14675"
+		(property "Mfr. Part" ""
 			(at 110.49 119.38 90)
 			(effects
 				(font
@@ -5748,8 +6185,26 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part" "RC0603FR-07100KL"
-			(at 110.49 119.38 90)
+		(property "Tolerance" "-"
+			(at 110.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rated Power" "-"
+			(at 110.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Range" "-"
+			(at 110.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,16 +6288,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1705"
-			(at 69.85 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "CL10A475KP8NNNC"
+		(property "Mfr. Part" ""
 			(at 69.85 71.12 0)
 			(effects
 				(font
@@ -5861,6 +6307,24 @@
 			)
 		)
 		(property "Price" "0.01"
+			(at 69.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1705"
+			(at 69.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CL10A475KP8NNNC"
 			(at 69.85 71.12 0)
 			(effects
 				(font
@@ -6032,7 +6496,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C82544"
+		(property "Mfr. Part" ""
 			(at 163.83 53.34 0)
 			(effects
 				(font
@@ -6041,7 +6505,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part" "1N5819HW-7-F"
+		(property "LCSC" "C82544"
+			(at 163.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "1N5819HW-7-F"
 			(at 163.83 53.34 0)
 			(effects
 				(font
@@ -6124,16 +6597,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C83472"
-			(at 218.44 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "SWPA4030S220MT"
+		(property "Mfr. Part" ""
 			(at 218.44 93.98 0)
 			(effects
 				(font
@@ -6153,6 +6617,24 @@
 		)
 		(property "Price" "0.05"
 			(at 218.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C83472"
+			(at 218.44 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "SWPA4030S220MT"
+			(at 218.44 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6293,7 +6775,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C351410"
+		(property "Mfr. Part" ""
 			(at 80.01 125.73 0)
 			(effects
 				(font
@@ -6302,7 +6784,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part" "DW01A"
+		(property "LCSC" "C351410"
+			(at 80.01 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "DW01A"
 			(at 80.01 125.73 0)
 			(effects
 				(font
@@ -6542,16 +7033,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23179"
-			(at 55.88 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "0603WAF4700T5E"
+		(property "Mfr. Part" ""
 			(at 55.88 80.01 0)
 			(effects
 				(font
@@ -6570,6 +7052,24 @@
 			)
 		)
 		(property "Price" "0.0011"
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23179"
+			(at 55.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "0603WAF4700T5E"
 			(at 55.88 80.01 0)
 			(effects
 				(font
@@ -6785,7 +7285,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2988620"
+		(property "Mfr. Part" ""
 			(at 118.11 127 0)
 			(effects
 				(font
@@ -6794,7 +7294,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part" "BH-18650-B1BA002"
+		(property "LCSC" "C2988620"
+			(at 118.11 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "BH-18650-B1BA002"
 			(at 118.11 127 0)
 			(effects
 				(font
@@ -6873,16 +7382,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C66501"
-			(at 102.87 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "CL10B104KO8NNNC"
+		(property "Mfr. Part" ""
 			(at 102.87 125.73 0)
 			(effects
 				(font
@@ -6910,6 +7410,24 @@
 			)
 		)
 		(property "TC" "X7R"
+			(at 102.87 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C66501"
+			(at 102.87 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CL10B104KO8NNNC"
 			(at 102.87 125.73 0)
 			(effects
 				(font
@@ -6994,16 +7512,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4190"
-			(at 247.65 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "0603WAF2201T5E"
+		(property "Mfr. Part" ""
 			(at 247.65 123.19 0)
 			(effects
 				(font
@@ -7022,6 +7531,24 @@
 			)
 		)
 		(property "Price" "0.0010"
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 247.65 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "0603WAF2201T5E"
 			(at 247.65 123.19 0)
 			(effects
 				(font
@@ -7106,16 +7633,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C87122"
-			(at 218.44 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "TLV62565DBVR"
+		(property "Mfr. Part" ""
 			(at 218.44 46.99 0)
 			(effects
 				(font
@@ -7134,6 +7652,24 @@
 			)
 		)
 		(property "Price" "0.46"
+			(at 218.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C87122"
+			(at 218.44 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TLV62565DBVR"
 			(at 218.44 46.99 0)
 			(effects
 				(font
@@ -7184,21 +7720,21 @@
 		(fields_autoplaced yes)
 		(uuid "7786abc1-4c01-4f18-864b-ec90c422cb14")
 		(property "Reference" "D1"
-			(at 44.45 70.1674 90)
+			(at 50.8 70.1675 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "STA"
-			(at 44.45 72.7074 90)
+			(at 50.8 72.7075 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -7219,7 +7755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Colorless transparence 516nm~525nm -30℃~+85℃ Positive post Emerald 120° 80mW 0603 Light Emitting Diodes (LED) ROHS"
+		(property "Description" "Light emitting diode"
 			(at 48.26 69.85 0)
 			(effects
 				(font
@@ -7228,16 +7764,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C965804"
-			(at 48.26 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "XL-1608UGC-04"
+		(property "Mfr. Part" ""
 			(at 48.26 69.85 0)
 			(effects
 				(font
@@ -7256,6 +7783,73 @@
 			)
 		)
 		(property "Price" "0.0040"
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965804"
+			(at 48.26 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "XL-1608UGC-04"
+			(at 48.26 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" ""
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tol" ""
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 48.26 69.85 0)
 			(effects
 				(font
@@ -7398,7 +7992,7 @@
 				)
 			)
 		)
-		(property "Part #" ""
+		(property "Part #" "RC0603FR-07100KL"
 			(at 154.94 58.42 0)
 			(effects
 				(font
@@ -7407,7 +8001,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14675"
 			(at 154.94 58.42 0)
 			(effects
 				(font
@@ -7443,16 +8037,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14675"
-			(at 154.94 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "RC0603FR-07100KL"
+		(property "Mfr. Part" ""
 			(at 154.94 58.42 0)
 			(effects
 				(font
@@ -7607,7 +8192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" ""
+		(property "Part #" "SI2302"
 			(at 69.85 146.05 0)
 			(effects
 				(font
@@ -7674,7 +8259,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2891732"
 			(at 69.85 146.05 0)
 			(effects
 				(font
@@ -7683,16 +8268,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2891732"
-			(at 69.85 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "SI2302"
+		(property "Mfr. Part" ""
 			(at 69.85 146.05 90)
 			(effects
 				(font
@@ -7850,7 +8426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part #" ""
+		(property "Part #" "SI2302"
 			(at 90.17 146.05 0)
 			(effects
 				(font
@@ -7917,7 +8493,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2891732"
 			(at 90.17 146.05 0)
 			(effects
 				(font
@@ -7926,16 +8502,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2891732"
-			(at 90.17 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "SI2302"
+		(property "Mfr. Part" ""
 			(at 90.17 146.05 90)
 			(effects
 				(font
@@ -8088,16 +8655,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23192"
-			(at 241.3 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "0603WAF5103T5E"
+		(property "Mfr. Part" ""
 			(at 241.3 60.96 0)
 			(effects
 				(font
@@ -8116,6 +8674,24 @@
 			)
 		)
 		(property "Price" "0.0010"
+			(at 241.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23192"
+			(at 241.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "0603WAF5103T5E"
 			(at 241.3 60.96 0)
 			(effects
 				(font
@@ -8200,16 +8776,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C22984"
-			(at 241.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "0603WAF3002T5E"
+		(property "Mfr. Part" ""
 			(at 241.3 50.8 0)
 			(effects
 				(font
@@ -8228,6 +8795,24 @@
 			)
 		)
 		(property "Price" "0.0010"
+			(at 241.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22984"
+			(at 241.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "0603WAF3002T5E"
 			(at 241.3 50.8 0)
 			(effects
 				(font
@@ -8312,16 +8897,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C77805"
-			(at 218.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "SDB628"
+		(property "Mfr. Part" ""
 			(at 218.44 111.76 0)
 			(effects
 				(font
@@ -8340,6 +8916,24 @@
 			)
 		)
 		(property "Price" "0.1875"
+			(at 218.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77805"
+			(at 218.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "SDB628"
 			(at 218.44 111.76 0)
 			(effects
 				(font
@@ -8434,16 +9028,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C86081"
-			(at 234.95 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "LQH44PN2R2MP0L"
+		(property "Mfr. Part" ""
 			(at 234.95 44.45 0)
 			(effects
 				(font
@@ -8463,6 +9048,24 @@
 		)
 		(property "Price" "0.14"
 			(at 234.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C86081"
+			(at 234.95 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "LQH44PN2R2MP0L"
+			(at 234.95 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8604,7 +9207,7 @@
 				)
 			)
 		)
-		(property "Part #" ""
+		(property "Part #" "CL21B105KBFNNNE"
 			(at 144.78 58.42 0)
 			(effects
 				(font
@@ -8613,7 +9216,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C28323"
 			(at 144.78 58.42 0)
 			(effects
 				(font
@@ -8649,16 +9252,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C28323"
-			(at 144.78 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "CL21B105KBFNNNE"
+		(property "Mfr. Part" ""
 			(at 144.78 58.42 0)
 			(effects
 				(font
@@ -8737,16 +9331,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5674"
-			(at 191.77 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "CL21A226MQQNNNE"
+		(property "Mfr. Part" ""
 			(at 191.77 121.92 0)
 			(effects
 				(font
@@ -8765,6 +9350,24 @@
 			)
 		)
 		(property "Price" "0.01"
+			(at 191.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5674"
+			(at 191.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CL21A226MQQNNNE"
 			(at 191.77 121.92 0)
 			(effects
 				(font
@@ -8864,7 +9467,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C82544"
+		(property "Mfr. Part" ""
 			(at 240.03 93.98 0)
 			(effects
 				(font
@@ -8873,7 +9476,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part" "1N5819HW-7-F"
+		(property "LCSC" "C82544"
+			(at 240.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "1N5819HW-7-F"
 			(at 240.03 93.98 0)
 			(effects
 				(font
@@ -9172,16 +9784,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17024"
-			(at 257.81 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "CL21A106KPFNNNE"
+		(property "Mfr. Part" ""
 			(at 257.81 55.88 0)
 			(effects
 				(font
@@ -9224,6 +9827,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C17024"
+			(at 257.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CL21A106KPFNNNE"
+			(at 257.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9311,7 +9932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part" "CL10A475KP8NNNC"
+		(property "Mfr. Part" ""
 			(at 207.01 53.34 0)
 			(effects
 				(font
@@ -9329,7 +9950,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1705"
+		(property "LCSC" "C1705"
+			(at 207.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CL10A475KP8NNNC"
 			(at 207.01 53.34 0)
 			(effects
 				(font
@@ -9485,16 +10115,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C21190"
-			(at 58.42 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "0603WAF1001T5E"
+		(property "Mfr. Part" ""
 			(at 58.42 137.16 0)
 			(effects
 				(font
@@ -9513,6 +10134,24 @@
 			)
 		)
 		(property "Price" "0.0006"
+			(at 58.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 58.42 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "0603WAF1001T5E"
 			(at 58.42 137.16 0)
 			(effects
 				(font
@@ -9615,6 +10254,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
 		(lib_id "Device:LED")
 		(at 55.88 69.85 270)
 		(mirror x)
@@ -9626,7 +10266,7 @@
 		(fields_autoplaced yes)
 		(uuid "d19ba636-0735-44ee-a2f3-c0a177490e53")
 		(property "Reference" "D2"
-			(at 58.42 70.1674 90)
+			(at 58.42 70.1675 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9635,7 +10275,7 @@
 			)
 		)
 		(property "Value" "STAT"
-			(at 58.42 72.7074 90)
+			(at 58.42 72.7075 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9661,7 +10301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Red 0603 Light Emitting Diodes (LED) ROHS"
+		(property "Description" "Light emitting diode"
 			(at 55.88 69.85 0)
 			(effects
 				(font
@@ -9670,16 +10310,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C84263"
-			(at 55.88 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "NCD0603R1"
+		(property "Mfr. Part" ""
 			(at 55.88 69.85 0)
 			(effects
 				(font
@@ -9698,6 +10329,73 @@
 			)
 		)
 		(property "Price" "0.0082"
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C84263"
+			(at 55.88 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "NCD0603R1"
+			(at 55.88 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TC" ""
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tol" ""
+			(at 55.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 55.88 69.85 0)
 			(effects
 				(font
@@ -9782,16 +10480,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C21190"
-			(at 48.26 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "0603WAF1001T5E"
+		(property "Mfr. Part" ""
 			(at 48.26 80.01 0)
 			(effects
 				(font
@@ -9810,6 +10499,24 @@
 			)
 		)
 		(property "Price" "0.0006"
+			(at 48.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 48.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "0603WAF1001T5E"
 			(at 48.26 80.01 0)
 			(effects
 				(font
@@ -9960,16 +10667,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C22885"
-			(at 247.65 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "0603WAF1622T5E"
+		(property "Mfr. Part" ""
 			(at 247.65 104.14 0)
 			(effects
 				(font
@@ -9988,6 +10686,24 @@
 			)
 		)
 		(property "Price" "0.0011"
+			(at 247.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22885"
+			(at 247.65 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "0603WAF1622T5E"
 			(at 247.65 104.14 0)
 			(effects
 				(font
@@ -10070,16 +10786,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C725790"
-			(at 88.9 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" "TP4056"
+		(property "Mfr. Part" ""
 			(at 88.9 77.47 0)
 			(effects
 				(font
@@ -10144,6 +10851,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C725790"
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "TP4056"
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10368,15 +11093,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5674"
-			(at 180.34 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 180.34 57.15 0)
 			(effects
@@ -10386,7 +11102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part" "CL21A226MQQNNNE"
+		(property "Mfr. Part" ""
 			(at 180.34 57.15 0)
 			(effects
 				(font
@@ -10396,6 +11112,24 @@
 			)
 		)
 		(property "Price" "0.01"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5674"
+			(at 180.34 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CL21A226MQQNNNE"
 			(at 180.34 57.15 0)
 			(effects
 				(font
